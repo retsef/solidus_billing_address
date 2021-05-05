@@ -23,8 +23,8 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,config,db,lib}/**/*', 'LICENSE', 'Rakefile', 'README.md']
   s.test_files = Dir['spec/**/*']
 
-  s.add_dependency 'solidus_core', '~> 2.8'
-  s.add_dependency 'valvat', '~> 0.8.1'
+  s.add_dependency 'solidus_core', '>= 2.8'
+  s.add_dependency 'valvat', '~> 1.1.0'
 
   s.add_development_dependency 'capybara', '~> 3.28'
   s.add_development_dependency 'coffee-rails'
